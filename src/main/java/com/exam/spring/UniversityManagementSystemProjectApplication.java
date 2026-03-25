@@ -1,0 +1,24 @@
+package com.exam.spring;
+
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+
+
+
+@SpringBootApplication 
+@ComponentScan(basePackages = "com.exam.spring")
+public class UniversityManagementSystemProjectApplication {
+
+	
+	
+	public static void main(String[] args) {
+		
+		
+		SpringApplication.run(UniversityManagementSystemProjectApplication.class, args);
+	}
+
+}
